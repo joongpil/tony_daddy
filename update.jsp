@@ -3,6 +3,7 @@
 <%@ page import="basekr.*" %>
 
 <%
+	//test
 	request.setCharacterEncoding("UTF-8");
 	int id_new = Integer.parseInt(request.getParameter("id"));
 	String nick_new = request.getParameter("nick");
